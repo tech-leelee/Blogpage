@@ -1,0 +1,78 @@
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  background-color: #F5D14E;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  font-family: "Figtree", serif;
+  font-size: 15px;
+}
+
+h3 {
+  font-family: "Figtree", serif;
+  font-weight: 900;
+}
+
+.card {
+  height: 50%;
+  width: 40%;
+  background-color: white;
+  padding: 7px;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  box-shadow: 10px 7px 1px black;
+  border-radius: 5%;
+}
+
+.articleimg {
+  height: 50%;
+  width: 90%;
+  border-radius: 5%;
+  margin-left: 13px;
+  margin-top: 13px;
+}
+
+.tab p {
+  background-color: #F5D14E;
+  display: inline-block;
+  padding: 7px;
+  border-radius: 5%;
+  margin-left: 13px;
+  font-weight: 900;
+}
+
+.text {
+  margin-left: 13px;
+}
+
+.text .txt1 {
+  color: hsl(0, 0%, 42%);
+}
+
+.footer {
+  margin-left: 13px;
+}
+
+.footer div {
+  position: relative;
+  left: 10px;
+  bottom: 15px;
+  display: inline-block;
+  font-weight: 900;
+}
+
+
+.footer img {
+  height: 15%;
+  width: 15%;
+}
