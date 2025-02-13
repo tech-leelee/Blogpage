@@ -3,7 +3,7 @@
 function App() {
   return (
        <div className="card">
-           <img src="/assets/illustration-article.svg" alt="article-image" className="articleimg"/>
+           <img src="src/assets/illustration-article.svg" alt="article-image" className="articleimg"/>
            <div className="tab">
                <p>Learning</p>
            </div>
@@ -15,7 +15,7 @@ function App() {
           </div>
 
            <div className="footer">
-              <img src="/assets/image-avatar.webp" alt="Greg" className="gregimg" />
+              <img src="src/assets/image-avatar.webp" alt="Greg" className="gregimg" />
               <div><p>Greg Hooper</p></div>       
           </div>
     
